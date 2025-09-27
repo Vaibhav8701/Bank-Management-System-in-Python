@@ -7,31 +7,31 @@ It simulates basic banking operations such as creating accounts, depositing/with
 
 # Features Implemented
 
-1.Account Creation
+# 1.Account Creation
 
 Generates a random account number using randint.
 
 Stores customer’s name, phone number, and balance.
 
-2.View Account Details
+# 2.View Account Details
 
 Displays account number, full name, phone number, and balance.
 
-3.Deposit Money
+# 3.Deposit Money
 
 Allows users to add money into their account.
 
-4.Withdraw Money
+# 4.Withdraw Money
 
 Validates balance before allowing withdrawal.
 
-5.Money Transfer
+# 5.Money Transfer
 
 Transfer funds between two valid accounts.
 
 Checks for sufficient balance before transfer.
 
-6.Exit
+# 6.Exit
 
 Ends the program safely.
 
@@ -60,10 +60,10 @@ Show both accounts → balances updated accordingly.
 
 # Scope for Improvements
 
-Save account data permanently using SQLite/MySQL instead of memory.
+1.Save account data permanently using SQLite/MySQL instead of memory.
 
-Add authentication (PIN/password) for security.
+2.Add authentication (PIN/password) for security.
 
-Provide transaction history for each account.
+3.Provide transaction history for each account.
 
-Create a GUI (Tkinter) or Web App (Flask/Django) for better usability.
+4.Create a GUI (Tkinter) or Web App (Flask/Django) for better usability.
